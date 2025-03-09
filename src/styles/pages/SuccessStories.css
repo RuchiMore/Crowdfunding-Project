@@ -1,0 +1,27 @@
+.success-stories {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .success-stories h1 {
+    font-size: 3rem;
+    color: #2a9d8f;
+  }
+  
+  .success-stories .story {
+    margin-top: 2rem;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .success-stories .story h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .success-stories .story p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

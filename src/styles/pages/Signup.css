@@ -1,0 +1,165 @@
+Global Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar
+  .navbar {
+    width: 100%;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .navbar a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Navbar 
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar a {
+      display: block;
+      width: 100%;
+    }
+  } */
+  
+  /* Signup Page Layout */
+  .signup-container {
+    width: 100%;
+    max-width: 500px;
+    height: 500px; /* Fixed height for scrolling */
+    overflow-y: auto; /* Enable vertical scroll */
+    background: white;
+    padding: 25px;
+    margin: 80px auto 50px; /* Adjusted margin to avoid navbar overlap */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Form Inputs */
+  .signup-container input,
+  .signup-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* File Upload Input */
+  .signup-container input[type="file"] {
+    padding: 5px;
+  }
+  
+  /* Submit Button */
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background: #555;
+  }
+  /* Sign-Up Button Styling */
+.signup-button {
+    width: 100%; /* Full width */
+    max-width: 300px; /* Prevents it from being too wide */
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    margin: 20px auto; /* Center align */
+  }
+  
+  /* Hover Effect */
+  .signup-button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    transform: scale(1.05); /* Small zoom effect */
+  }
+  
+  /* Active (Click) Effect */
+  .signup-button:active {
+    background-color: #222;
+    transform: scale(0.98);
+  }
+  
+  /* Custom Scrollbar for Webkit Browsers */
+  .signup-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .signup-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .signup-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  .signup-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Mobile-Friendly Adjustments */
+  @media (max-width: 600px) {
+    .signup-container {
+      width: 90%;
+      height: 400px;
+    }
+  }
+
+  /* Checkbox Styling */
+.terms-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between checkbox and text */
+    margin-top: 15px;
+  }
+  
+  /* Fix Checkbox Size */
+  .terms-container input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #333; /* Makes the checkbox color match the theme */
+  }
+  
+  /* Terms Text Styling */
+  .terms-container label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }

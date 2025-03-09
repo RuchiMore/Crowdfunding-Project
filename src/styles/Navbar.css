@@ -1,0 +1,57 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Ensure proper spacing */
+  align-items: center;
+  background-color: #333; /* Dark background */
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Logo Styling */
+.navbar-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navigation Links */
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Adds space between links */
+  list-style: none;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #f8d210;
+}
+
+/* Fix for Items Sticking Together */
+.navbar-links li {
+  padding: 5px 10px;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

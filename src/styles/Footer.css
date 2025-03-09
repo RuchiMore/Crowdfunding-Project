@@ -1,0 +1,22 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .footer .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+      

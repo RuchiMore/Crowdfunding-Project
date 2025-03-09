@@ -1,0 +1,28 @@
+.support {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .support h1 {
+    font-size: 3rem;
+    color: #2a9d8f;
+  }
+  
+  .support input,
+  .support textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .support button {
+    padding: 1rem 2rem;
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  

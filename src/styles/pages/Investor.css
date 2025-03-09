@@ -1,0 +1,33 @@
+.investor {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .investor h1 {
+    font-size: 3rem;
+    color: #2a9d8f;
+  }
+  
+  .investor .investment-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .investor .option {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .investor .option h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .investor .option p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
